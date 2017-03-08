@@ -61,6 +61,6 @@ git push origin gh-pages
 
 ***
 
-### Example GIF:
+### Website:
 
-![basic gif of app](https://cloud.githubusercontent.com/assets/9837366/22784577/cdcf4c84-ee8d-11e6-98ca-89fe3b387cf1.gif)
+[Over Here!](http://selfup.me/hyperapp-one)
