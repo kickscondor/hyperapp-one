@@ -1,12 +1,16 @@
 {
   "plugins": [
-    ["transform-react-jsx", { "pragma": "h" }]
+    ["transform-react-jsx", { "pragma": "h" }],
+    "dynamic-import-webpack"
   ],
   "presets": [
-    ["es2015", {
-      "es2015": {
-        "modules": false
-      }
-    }],
+    ["env", { "modules": false }]
   ],
+  "env": {
+    "test": {
+      "presets": [
+        ["env", "es2015"]
+      ]
+    }
+  }
 }
